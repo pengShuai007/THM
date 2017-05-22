@@ -1,0 +1,83 @@
+﻿@charset "gb2312";
+/*页面背景图片样式*/
+.body-background
+{
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.logo
+{
+    z-index: 1;
+    position: absolute;
+    padding-left:0px;
+    padding-right:8px;
+    left: 5px;
+    top: 0px;
+    width: 98%;
+    height:55px;
+   /* width:100%;*//*新版主界面UI*/
+    /*height:76px;*/
+}
+.logo-img
+{
+    z-index: 2;
+    position: absolute;
+    margin-left: 0px;
+    top: 5px; 
+    left:5px;
+}
+.logo-hrp-inf
+{
+    z-index: 2;
+    position: absolute;
+    left: 30%;
+    top: 15px;
+    width: 600px;
+    color: #FFFFFF;
+    font-family: "微软雅黑" , "黑体" , "宋体";
+    font-size: 32px;
+    font-weight: 600;
+}
+.logo-hrp-img
+{
+    width: 200px;
+    height: 45px;
+    background: url(../Images/main/zjm_solon.png) no-repeat ;
+}
+.logo-hrp-text
+{
+    float: left;
+    margin: 5px 0 0 10px;
+    /*margin:15px 0px 0px 10px;*//*新版主界面UI*/
+}
+
+.home-background
+{ 
+    width: 100%;
+    height: 100%;
+}
+.home-background img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.listSystem{ 
+ 	 z-index:1;   
+	 position:absolute;
+	 left:24%;
+	 top:10%;   
+}
+.listSystem img{
+	padding:0px;
+	width:177px;
+	height:155px;
+}
+.listSystem img:hover{ 
+	width:182px;
+	height:155px;
+}

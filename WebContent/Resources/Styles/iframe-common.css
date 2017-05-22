@@ -1,0 +1,48 @@
+.searchform div
+{
+    float: left;
+    padding: 10px 10px 0 10px;
+}
+.searchform input
+{
+    width: 150px;
+}
+.addfrom div
+{
+    float: left;
+    display: block;
+}
+.addfrom label
+{
+    width: 10px;
+    display: block;
+}
+.addfrom input
+{
+    float: left;
+    width: 100px;
+}
+
+
+.updatefrom div
+{
+    float: left;
+    display: block;
+}
+.updatefrom label
+{
+    width: 10px;
+    display: block;
+}
+.updatefrom input
+{
+    float: left;
+}
+
+.datagrid-toolbar
+{
+        width: 2180px;
+}
+
+
+ 

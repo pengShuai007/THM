@@ -1,0 +1,21 @@
+﻿#fullbg{
+opacity:0; /*透明度*/
+background-color: white; //Gray;
+display:none;
+z-index:3;
+position:absolute;
+left:0px;
+top:0px;
+/* IE */
+-moz-opacity:0;
+/* Moz + FF */
+opacity:0;
+}
+ 
+#dialog {
+position:absolute;
+width:100%;
+height:100%;
+display: none;
+z-index: 5;
+}

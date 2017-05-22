@@ -1,0 +1,49 @@
+<!-- 发布一个名为WebserviceActionC的webservice；如果发布多个服务，用多个service标签即可 -->
+<service name="AppointService">
+	<description>
+		预约接口
+	</description>
+	
+	<!-- 指定发布的类的类路径，以及说明该类是一个ServiceClass -->
+	<parameter name="ServiceClass">
+		com.kyee.cloud.webservice.service.AppointService
+	</parameter>
+	
+	<!-- 方法有返回值 -->
+	<operation name="getDepartment">
+		<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+	</operation>
+	
+	<operation name="getDoctor">
+		<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+	</operation>
+	
+	<operation name="getSchedule">
+		<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+	</operation>
+	
+	<operation name="getPatientCard">
+		<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+	</operation>
+	
+	<operation name="searchPatientCard">
+		<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+	</operation>
+	
+	<operation name="createVirtualPatientCard">
+		<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+	</operation>
+	
+	<operation name="getAvailableClinicNum">
+		<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+	</operation>
+	
+	<operation name="confirmReservation">
+		<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+	</operation>
+ 
+	<!-- 方法无返回值 
+	<operation name="sayHello">
+		<messageReceiver class="org.apache.axis2.rpc.receivers.RPCInOnlyMessageReceiver"/>
+	</operation>-->
+</service>

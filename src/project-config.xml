@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appSystem>
+	<param>
+		<key>projectHome</key>
+		<value>e:/web-config/cop</value>
+	</param>
+	<!--在端上filter中维护的map全集中找不到op接口时返回不同的提示信息。1为正式环境，提示：此医院暂未开通此功能。
+	0为测试环境，直接往前抛出一个异常
+	修改人：ypf
+	修改时间：2014-10-14 22:19:22
+	任务号：KYEEAPP-863-->
+	<param>
+		<key>filterBackInfo</key>
+		<value>0</value>
+	</param>
+</appSystem>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DatasourceManager xmlVersion="20130114" releaseVersion="7.0.4">
+<ConnectionMap>
+<Connection name="FRDemo" class="com.fr.data.impl.JDBCDatabaseConnection">
+<DatabaseAttr/>
+<JDBCDatabaseAttr url="jdbc:odbc:Driver={Microsoft Access Driver (*.mdb)};DBQ=${ENV_HOME}\..\FRDemo.mdb" driver="sun.jdbc.odbc.JdbcOdbcDriver" user="" password="___" encryptPassword="true">
+<DBCPAttr/>
+</JDBCDatabaseAttr>
+</Connection>
+<Connection name="hrp" class="com.fr.data.impl.JDBCDatabaseConnection">
+<DatabaseAttr originalCharsetName="ISO-8859-1" newCharsetName="GBK"/>
+<JDBCDatabaseAttr url="jdbc:oracle:thin:@172.16.0.20:701:HRPDEV" driver="oracle.jdbc.driver.OracleDriver" user="hrpdev" password="___007b003c007a006b000100a3007400250023007f003e" encryptPassword="true">
+<DBCPAttr/>
+</JDBCDatabaseAttr>
+</Connection>
+<Connection name="cop" class="com.fr.data.impl.JDBCDatabaseConnection">
+<DatabaseAttr originalCharsetName="UTF-8" newCharsetName="UTF-8"/>
+<JDBCDatabaseAttr url="jdbc:mysql://120.27.112.74:3306/app_cloud_dev" driver="com.mysql.jdbc.Driver" user="appdev" password="___0077002b007c003e005600e6001f00220025" encryptPassword="true">
+<DBCPAttr/>
+</JDBCDatabaseAttr>
+</Connection>
+<Connection name="hd" class="com.fr.data.impl.JDBCDatabaseConnection">
+<DatabaseAttr originalCharsetName="UTF-8" newCharsetName="UTF-8"/>
+<JDBCDatabaseAttr url="jdbc:mysql://172.16.10.18:3306/hierdiagnosis" driver="com.mysql.jdbc.Driver" user="appdev" password="___0077002b007c003e005600e6001f00220025" encryptPassword="true">
+<DBCPAttr/>
+</JDBCDatabaseAttr>
+</Connection>
+<Connection name="base" class="com.fr.data.impl.JDBCDatabaseConnection">
+<DatabaseAttr originalCharsetName="UTF-8" newCharsetName="UTF-8"/>
+<JDBCDatabaseAttr url="jdbc:mysql://172.25.41.100:3306/cop" driver="com.mysql.jdbc.Driver" user="copdev" password="___0077002b007c003e005600e6001f00220025" encryptPassword="true">
+<DBCPAttr/>
+</JDBCDatabaseAttr>
+</Connection>
+<Connection name="seq" class="com.fr.data.impl.JDBCDatabaseConnection">
+<DatabaseAttr originalCharsetName="UTF-8" newCharsetName="UTF-8"/>
+<JDBCDatabaseAttr url="jdbc:mysql://172.25.41.100:3306/cop" driver="com.mysql.jdbc.Driver" user="copdev" password="___0077002b007c003e005600e6001f00220025" encryptPassword="true">
+<DBCPAttr/>
+</JDBCDatabaseAttr>
+</Connection>
+<Connection name="cloud" class="com.fr.data.impl.JDBCDatabaseConnection">
+<DatabaseAttr originalCharsetName="UTF-8" newCharsetName="UTF-8"/>
+<JDBCDatabaseAttr url="jdbc:mysql://quyiyuan.mysql.rds.aliyuncs.com:3306/app_yun_release" driver="com.mysql.jdbc.Driver" user="app_ext_r" password="___00760036007e007d000000e7001b00260026" encryptPassword="true">
+<DBCPAttr/>
+</JDBCDatabaseAttr>
+</Connection>
+<Connection name="nonbusiness" class="com.fr.data.impl.JDBCDatabaseConnection">
+<DatabaseAttr originalCharsetName="UTF-8" newCharsetName="UTF-8"/>
+<JDBCDatabaseAttr url="jdbc:mysql://120.27.112.74:3306/app_cloud_nonbusiness" driver="com.mysql.jdbc.Driver" user="appdev" password="___0077002b007c003e005600e6001f00220025" encryptPassword="true">
+<DBCPAttr/>
+</JDBCDatabaseAttr>
+</Connection>
+
+<Connection name="hplusYeWu" class="com.fr.data.impl.JDBCDatabaseConnection">
+<DatabaseAttr originalCharsetName="UTF-8" newCharsetName="UTF-8"/>
+<JDBCDatabaseAttr url="jdbc:mysql://rdsgt1vktl8nb8f4i56to.mysql.rds.aliyuncs.com:3306/hplus" driver="com.mysql.jdbc.Driver" user="pc" password="___007b003e0066007a001700b1004e0061" encryptPassword="true">
+<DBCPAttr/>
+</JDBCDatabaseAttr>
+</Connection>
+<Connection name="hpluscommr" class="com.fr.data.impl.JDBCDatabaseConnection">
+<DatabaseAttr originalCharsetName="UTF-8" newCharsetName="UTF-8"/>
+<JDBCDatabaseAttr url="jdbc:mysql://rdss754eu936tqa222w5.mysql.rds.aliyuncs.com:3306/hplus?useUnicode=true&amp;characterEncoding=UTF-8" driver="com.mysql.jdbc.Driver" user="hosp" password="___007b003e0066007a001700b1004e0061" encryptPassword="true">
+<DBCPAttr/>
+</JDBCDatabaseAttr>
+</Connection>
+<Connection name="MESSAGE" class="com.fr.data.impl.JDBCDatabaseConnection">
+<DatabaseAttr originalCharsetName="UTF-8" newCharsetName="UTF-8"/>
+<JDBCDatabaseAttr url="jdbc:mysql://120.27.112.74:3306/sms" driver="com.mysql.jdbc.Driver" user="sms" password="___0077002b007c003e005600e6001f00220025" encryptPassword="true">
+<DBCPAttr/>
+</JDBCDatabaseAttr>
+</Connection>
+<Connection name="patientCircle" class="com.fr.data.impl.JDBCDatabaseConnection">
+<DatabaseAttr originalCharsetName="UTF-8" newCharsetName="UTF-8"/>
+<JDBCDatabaseAttr url="jdbc:mysql://xian.quyiyuan.com/qy_sufferers_circle" driver="com.mysql.jdbc.Driver" user="sufc_dev" password="___0077002b007c003e005600e6001f00220025" encryptPassword="true">
+<DBCPAttr/>
+</JDBCDatabaseAttr>
+</Connection>
+</ConnectionMap>
+<TableDataMap>
+<TableData name="员工信息表" class="com.fr.data.impl.DBTableData">
+<Parameters/>
+<Attributes maxMemRowCount="-1"/>
+<Connection class="com.fr.data.impl.NameDatabaseConnection">
+<DatabaseName>
+<![CDATA[FRDemo]]></DatabaseName>
+</Connection>
+<Query>
+<![CDATA[SELECT * FROM 员工信息表]]></Query>
+</TableData>
+<TableData name="用户信息表" class="com.fr.data.impl.DBTableData">
+<Parameters/>
+<Attributes maxMemRowCount="-1"/>
+<Connection class="com.fr.data.impl.NameDatabaseConnection">
+<DatabaseName>
+<![CDATA[FRDemo]]></DatabaseName>
+</Connection>
+<Query>
+<![CDATA[SELECT * FROM [userinfo]A]]></Query>
+</TableData>
+</TableDataMap>
+<ADHOCMap>
+<TableData name="员工信息表" class="com.fr.data.impl.ADHOCNamedTableData">
+<DBTableDataName>
+<![CDATA[员工信息表]]></DBTableDataName>
+</TableData>
+<TableData name="员工信息表_SQL视图" class="com.fr.data.impl.ADHOCSQLTableData">
+<DBConnectionName>
+<![CDATA[FRDemo]]></DBConnectionName>
+<Query>
+<![CDATA[select * from 员工信息表]]></Query>
+</TableData>
+</ADHOCMap>
+</DatasourceManager>

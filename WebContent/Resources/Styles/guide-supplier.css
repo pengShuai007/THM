@@ -1,0 +1,21 @@
+@charset "gb2312";
+
+.logo
+{
+    z-index: 1;
+   /*  position: absolute; */
+    padding-left:0px;
+    padding-right:8px;
+    left: 5px;
+    top: 0px;
+    width: 98%;
+    height:80px;
+}
+
+.logo-text
+{
+    float: left;
+    margin: 5px 0 0 0;
+    padding-left: 0px;
+    margin:20px 0px 0px 10px;
+}

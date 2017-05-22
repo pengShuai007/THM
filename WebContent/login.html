@@ -1,0 +1,13 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+</head>
+<body>
+    <script type="text/javascript">
+        var urlParam = null;
+        if (window.location.href.indexOf('?') > -1)
+            urlParam = window.location.href.substring(window.location.href.indexOf('?'));
+        window.location = "login.jsp" + (urlParam == null ? '' : urlParam);
+    </script>
+</body>
+</html>

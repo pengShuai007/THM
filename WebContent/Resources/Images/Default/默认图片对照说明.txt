@@ -1,0 +1,8 @@
+﻿系统简称根据SYS_OPERATION.SUB_SYSTEM定义
+科级核算系统：简称：DR ,图片：彩：DR_01.png,灰：DR_02.png
+系统设置：简称：SYS,图片：彩：SYS_01.png,灰：SYS_02.png
+院级核算管理系统:简称：ACCT,图片：ACCT_01.png,灰：ACCT_02.png
+
+其他系统依照此规律对两张图片命名。
+
+默认的背景图片为：DefaultBackground.jpg

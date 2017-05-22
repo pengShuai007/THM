@@ -1,0 +1,207 @@
+@charset "gb2312";
+/* CSS Document */
+body{
+	 /*color:#FFFFFF;*/
+	 color:#000;
+	 font-family:"Î¢ÈíÑÅºÚ","ºÚÌå","ËÎÌå";
+     font-size:12px; 
+	 font-weight:500;
+}
+.msg{
+	 display:none;
+	 background-color:#666666;   
+ 	 z-index:10000;
+	 position:absolute;
+	 left:35%;
+	 top:67px; 
+	 width:424px;
+     height:50px;
+     font-family:"Î¢ÈíÑÅºÚ","ºÚÌå","ËÎÌå";
+     font-size:22px; 
+	 font-weight:500;
+	 /* filter:alpha(opacity=50); */
+	 /* IE */ 
+	/*  -moz-opacity:0.5; */
+	 /* Moz + FF */
+	/*  opacity: 0.5; */
+ }
+ .msg div{ 
+    position:absolute;
+	left:20%;
+	top:20%; 
+	width:424px;
+    color:#FFFFFF;
+ }
+
+.body-background{
+	 z-index:-100;
+	 position:absolute;
+	 left:0;
+	 top:0;
+	 width:100%;
+	 height:100%;
+}
+.logo
+{
+    
+    overflow:hidden;
+    height:55px;
+    padding-right:8px;
+}
+
+.logo-img{
+	padding-left:20px;
+	padding-top:25px;
+	 
+}
+ 
+.logo-hrp-img
+{
+    float: left;
+    margin-left:200px;
+	margin-top:10px;
+    width: 200px;
+    height: 45px;
+    background: url(../Images/main/zjm_solon.png) no-repeat  ;
+}
+.logo-hrp-text
+{    position: relative;
+    overflow :visible;
+    float: left;
+    margin: 5px 0 0 5px;
+    font-family: "Î¢ÈíÑÅºÚ" , "ºÚÌå" , "ËÎÌå";
+    font-size: 32px;
+    font-weight: 600;
+}
+.logo-inf
+{  position: relative;
+	padding-top: 2px;
+	float:right; 
+	font-weight:600;
+	width:180px;
+	overflow:hidden;
+	 
+}
+.logo-inf a{  
+	color:#FFFFFF;
+    font-weight:600;
+}
+
+.listSystem
+{
+    position: relative;
+    /*margin-left:140px;*/
+    margin-top:100px;
+    text-align:center;
+ 	z-index:1;    
+	/*width:885px;*/
+}
+listSystem span
+{
+    width:177px;
+	height:155px;
+    }
+.listSystemOtherDiv{ 
+	width:177px;
+	height:155px;
+	float:left
+}
+.sysName   
+{    
+	 float:left;
+     color:#FFFFFF;
+     /*color:#000;*/
+	 font-family:"Î¢ÈíÑÅºÚ";
+     font-size:16px; 
+	 /*font-weight:600;*/
+	 font-weight:normal;  
+	 /*width:170px;*/
+       width:110px;
+	 /*margin-left:3px;*/
+	 margin:3px 0px 0px 0px;
+	 padding:0px;
+     bottom : 0;
+     left: 0; 
+     position:absolute;
+     height: 45px; 
+     overflow:hidden;
+     text-shadow:-2px 2px 2px #000000;     
+    }     
+   .sysName table
+   { 
+       /*width:170px;*/
+       width:110px;
+       
+       }
+   
+.listSystem-canDiv 
+{  position: relative;
+	/*width:177px;
+	height:155px;*/
+	width:110px;
+	height:132px;
+	float:left;
+	
+}
+ .listSystem-notCanDiv 
+ { position: relative;
+	/*width:177px;
+	height:155px;*/
+	width:110px;
+	height:132px;	
+	float:left
+}
+.listSystem img{
+	padding:3px 4px 3px 4px;
+	/*width:169px;
+	height:149px;*/
+	width:90px;
+	height:89px;
+	border:0px;
+}
+.listSystem-canDiv img:hover 
+{
+    /*border:thin solid  #FFFFFF;*/
+    -moz-border-radius: 5px;      /* Gecko browsers */
+    -webkit-border-radius: 5px;   /* Webkit browsers */
+    border-radius:5px;            /* W3C syntax */
+	/*background-color:#00FF00;*/
+	margin-top:-10px;
+	margin-left:-10px;
+ 	padding:0;
+	/*width:180px;
+	height:170px;*/
+	width:101px;
+	height:100px;	
+}
+.listSystem-notCanDiv img:hover 
+{
+    /*border:thin solid  #FFFFFF;*/
+    -moz-border-radius: 5px;      /* Gecko browsers */
+    -webkit-border-radius: 5px;   /* Webkit browsers */
+    border-radius:5px;            /* W3C syntax */
+	background-color:#000000;
+	margin-top:-10px;
+	margin-left:-10px;
+ 	padding:0;
+	/*width:190px;
+	height:165px;*/
+	width:101px;
+	height:100px;
+	text-decoration:none;
+    
+}
+.copyright{
+     z-index:2;   
+	 position:absolute;
+	 left:75%;
+	 top:90%;   
+}
+.copyright a{
+     /*color:#FFFFFF;*/
+     color:#000; 
+	 text-decoration:none;
+}
+.copyright a:hover { 
+	 text-decoration:blink;
+}

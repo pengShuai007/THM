@@ -1,0 +1,102 @@
+@charset "gb2312";
+body{
+	 font-family:"Î¢ÈíÑÅºÚ","ºÚÌå","ËÎÌå";
+     font-size:14px; 
+	 font-weight:500;
+}
+/*Ò³Ãæ±³¾°Í¼Æ¬ÑùÊ½*/
+ .body-background{
+	 z-index:-100;
+	 position:absolute;
+	 left:0;
+	 top:0;
+	 width:100%;
+	 height:100%;
+ }
+ .login-background{
+ 	z-index:1;  
+	position:absolute;
+	left:35%;
+	top:5%; 
+	width:424px;
+    height:400px;
+    display:none;
+ }
+ .login-doLogin{
+ 	 font-size:24px; 
+	 display:none;
+	 /*background-color:#666666;*/
+ 	 z-index:10000;
+	 position:absolute;
+	 left:31%;
+	 top:1px; 
+	 width:524px;
+     height:100px;
+	 /* filter:alpha(opacity=50); */
+	 /* IE */ 
+	/*  -moz-opacity:0.5; */
+	 /* Moz + FF */
+	/*  opacity: 0.5; */
+ }
+ .login-doLogin div{ 
+    position:absolute;
+	 
+	top:35%; 
+	width:524px;
+    color:#FFFFFF;
+    text-align:center;
+ }
+ .login{
+	 z-index:2;   
+	 position:absolute;
+	 left:318px;
+	 top:93px; 
+	 width:424px;
+	 height:320px;
+ }
+ .login-user-photo{
+ 	padding-left:135px;
+	padding-top:35px;
+ }
+ .login-showUserName{
+ 	 
+	padding-top:20px;
+ 
+ } 
+ .login-login{  
+    width:40px;
+	background-image: url(../Images/login/dl_an2.png);
+	background-repeat: no-repeat;
+	height: 40px;
+ }
+  .login-login:hover{ 
+    width:40px;
+	background-image: url(../Images/login/dl_an.png);
+	background-repeat: no-repeat;
+	height: 40px;
+ }
+ .login-changeUser{
+ 	background-image: url(../Images/login/dl_xzyh.png);
+	background-repeat: no-repeat;
+	background-position: 90% 90%;
+	width:181px;
+	height:35px;
+ } 
+  
+ .copyright{
+     z-index:2;   
+	 position:absolute;
+	 left:75%;
+	 top:90%;   
+	
+
+}
+.copyright a{
+     color:#FFFFFF; 
+	 text-decoration:none;
+	  font-size:12px; 
+	 font-weight:500;
+}
+.copyright a:hover { 
+	 text-decoration:blink;
+}
